@@ -43,6 +43,10 @@ a {
   flex-direction: column;
 }
 
+.info {
+  text-align: center;
+}
+
 .footer {
   display: flex;
   justify-content: center;
