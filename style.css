@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* ELEMENT SECTION */
+
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -24,10 +26,15 @@ a {
   text-decoration: none;
 }
 
+/*                */
+
+/* MAJOR SECTIONS */
+
 .header {
   display: flex;
   justify-content: space-between;
   padding: 20px 50px;
+  flex-wrap: wrap;
 }
 
 .content {
@@ -42,4 +49,10 @@ a {
   justify-content: center;
   align-items: center;
   padding: 15px;
+}
+
+/*                */
+
+.awesome {
+  display: flex;
 }
