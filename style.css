@@ -76,6 +76,35 @@ a {
   justify-content: space-between;
 }
 
+.logo {
+  font-size: 18px;
+  color: #F9FAF8;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.subtext, .nav-bar a, .footer {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.rand {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+}
+
 .quote {
   background-color: #E5E7EB;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.action, button {
+  background-color: #3882F6;
 }
