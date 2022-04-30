@@ -32,9 +32,8 @@ a {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   padding: 20px 50px;
-  flex-wrap: wrap;
 }
 
 .content {
@@ -53,6 +52,7 @@ a {
 
 /*                */
 
-.awesome {
+.nav-bar, .explain {
   display: flex;
+  justify-content: space-between;
 }
